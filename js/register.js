@@ -30,7 +30,6 @@ $(window, document, undefined).ready(function () {
                     setCookie("id", data.id, 1);
                     setCookie("email", data.email, 1);
                     setCookie("password", data.password, 1);
-                    setCookie("token", data.token);
                 } else {
                     Materialize.toast(result.message, 2000);
                 }

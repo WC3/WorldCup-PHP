@@ -35,7 +35,7 @@ class DBHelper
 
     public function select_db()
     {
-        self::$con = mysqli_connect("localhost:3306", "test", "123456", "test");
+        self::$con = mysqli_connect("localhost:3306", "test", "123456", "worldcup");
         if (!self::$con) {
             echo failure_response("数据库连接失败！");
             exit();
