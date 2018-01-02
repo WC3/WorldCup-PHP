@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>登录</title>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+    <link rel="stylesheet" href="../css/material.css"/>
+    <link rel="stylesheet" href="../css/login.css"/>
+    <link rel="stylesheet" href="../css/common.css"/>
+    <script type="text/javascript" src="../js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="../js/materialize.min.js"></script>
+    <script type="text/javascript" src="../js/common.js"></script>
+    <script type="text/javascript" src="../js/login.js"></script>
+</head>
+<body>
+<div style="text-align: center;margin-top: 4em">
+    <h2>世界杯信息管理系统</h2>
+</div>
+<form>
+    <div class="input-field">
+        <input id="email" type="email" class="validate">
+        <label for="email" data-error="邮箱格式错误">邮箱</label>
+    </div>
+    <div class="input-field">
+        <input id="password" type="password" class="validate">
+        <label for="password">密码</label>
+    </div>
+    <button id="login" class="btn waves-effect waves-light" type="button">登录</button>
+</form>
+<div id="register">还没有账号? <a href="register.html">注册新账号</a></div>
+<div id="loading" class="preloader-wrapper big active">
+    <div class="spinner-layer spinner-blue-only">
+        <div class="circle-clipper left">
+            <div class="circle"></div>
+        </div>
+        <div class="gap-patch">
+            <div class="circle"></div>
+        </div>
+        <div class="circle-clipper right">
+            <div class="circle"></div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
